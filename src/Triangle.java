@@ -19,7 +19,7 @@ public class Triangle {
         {
 
             solveArea();
-    }
+        }
         else
         {
             System.out.println("NOT AN OPTION");
@@ -69,7 +69,13 @@ public class Triangle {
     }
     public static void Equilateral()
     {
-
+        Scanner input = new Scanner(System.in);
+        double A;
+        double B;
+    System.out.println("What is side A");
+    A = input.nextInt();
+    System.out.println("HEY whats side B");
+    B = input.nextInt("");
     }
     public static void solveArea()
     {

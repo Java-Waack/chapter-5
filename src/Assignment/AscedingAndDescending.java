@@ -32,32 +32,28 @@ public class AscedingAndDescending {
                 result1 = "Descending order " + entry3 + " " + entry1 + " " + entry2;
             }
         }
-        else if (entry2 > entry1 && entry3 > entry2)
-        {
-           if (entry3 > entry2)
-           {
-               result = "Ascending order" + entry3 + " " + entry2 + " " + entry1;
-               result1 = "Descending order" + entry1 + " " + entry2 + " " + entry3;
+        else if (entry2 > entry1 && entry3 > entry2) {
+            if (entry3 > entry2) {
+                result = "Ascending order" + entry3 + " " + entry2 + " " + entry1;
+                result1 = "Descending order" + entry1 + " " + entry2 + " " + entry3;
             }
-            else
-           {
-               result = "Ascending order " + entry3 + " "+ entry1 + " " + entry2;
-               result1 = "Descending order" + entry2 + " " + entry1 + " " + entry3;
-           }
-           else if (entry2 > entry3 && entry3 > entry1)
-        {
-            if (1 < 2) {
+            else {
+                result = "Ascending order " + entry3 + " " + entry1 + " " + entry2;
+                result1 = "Descending order" + entry2 + " " + entry1 + " " + entry3;
+            }
+
+            }
+
+        else if (entry2 > entry3 && entry3 > entry1) {
+            if (entry1 < entry2) {
                 result = "Ascending order " + entry2 + " " + entry3 + " " + entry1;
                 result1 = "Descending order" + entry1 + " " + entry3 + " " + entry2;
             }
-            else
-                {
-                    result = "Ascending order "+ 
-                }
+            else {
+                result = "Ascending order " +
+            }
         }
-
-
         System.out.println(result + "\n" + result1);
-    }
+
     }
 }

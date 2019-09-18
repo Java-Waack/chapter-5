@@ -75,7 +75,7 @@ public class Triangle {
     System.out.println("What is side A");
     A = input.nextInt();
     System.out.println("HEY whats side B");
-    B = input.nextInt("");
+    B = input.nextInt();
     }
     public static void solveArea()
     {
